@@ -324,7 +324,7 @@ namespace TimelineControl.Implementation.Data
 
         public bool InRange(DateTime from,DateTime to)
         {
-            return !((StartDate < from && EndDate < from) || (StartDate > to && EndDate > to))
+            return !((StartDate < from && EndDate < from) || (StartDate > to && EndDate > to));
         }
     }
 }

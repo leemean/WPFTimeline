@@ -47,7 +47,10 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Implementation\Controls\TimelineBand.cs" />
     <Compile Include="Implementation\Controls\TimelineStatus.cs" />
+    <Compile Include="Implementation\Data\CurrentTimeTagItem.cs" />
     <Compile Include="Implementation\Data\EventTag.cs" />
+    <Compile Include="Implementation\Data\TimelineBuilder.cs" />
+    <Compile Include="Implementation\Data\TimelineDisplayEvent.cs" />
     <Compile Include="Implementation\Data\TimelineEvent.cs" />
     <Compile Include="Implementation\Data\TimelineEventStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
